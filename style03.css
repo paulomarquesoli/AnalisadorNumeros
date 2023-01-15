@@ -9,6 +9,15 @@ body {
 
 }
 
+@media screen and (max-width: 840px) {
+    main {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 main .container {
     background-color: #292929;
     border-radius: 5px;
@@ -21,8 +30,21 @@ main .container {
     width: 450px;
 }
 
+@media screen and (max-width: 840px) {
+    main .container {
+        width: 290px;
+    }
+}
+
 main .container h1 {
     color: #ffffff;
+}
+
+@media screen and (max-width: 840px) {
+    main .container .container-add_num {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .container-add input {
@@ -31,6 +53,7 @@ main .container h1 {
     border-bottom: solid 2px;
     border-image: linear-gradient(to right, #a001df, #630cf1)1;
     color: #ffffff;
+    padding: 10px 0 2px 2px;
     
 }
 
@@ -46,6 +69,12 @@ main .container h1 {
     height: 30px;
     width: 100px;
     transition: 0.2s;
+}
+
+@media screen and (max-width: 840px) {
+    main .container .container-add_num button {
+        margin-top: 10px;
+    }
 }
 
 .container button:hover {
@@ -89,4 +118,11 @@ main .marca {
     font-size: 10pt;
     font-style: italic;
     text-align: center;
+}
+
+@media screen and (max-width: 840px) {
+    main .marca {
+
+        width: 70%;
+    }
 }
