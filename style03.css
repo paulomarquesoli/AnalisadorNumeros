@@ -1,0 +1,92 @@
+body {
+    align-items: center;
+    background-image: linear-gradient(to right, #a001df, #630cf1);
+    overflow: hidden;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+main .container {
+    background-color: #292929;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #00000068;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    width: 450px;
+}
+
+main .container h1 {
+    color: #ffffff;
+}
+
+.container-add input {
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px;
+    border-image: linear-gradient(to right, #a001df, #630cf1)1;
+    color: #ffffff;
+    
+}
+
+.container-add input:focus {
+    outline: 0;
+}
+
+.container-add button {
+    background-image: linear-gradient(to right, #a001df, #630cf1);
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    transition: 0.2s;
+}
+
+.container button:hover {
+    cursor: pointer;
+    scale: 1.02;
+}
+
+select {
+    background: transparent;
+    border-image: linear-gradient(to right, #a001df, #630cf1)1;
+    color: #ffffff;
+    padding: 10px;
+}
+
+select, .botao-finalizar {
+    margin-top: 20px;
+}
+
+.botao-finalizar {
+    width: 100px;
+    background-image: linear-gradient(to right, #a001df, #630cf1);
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    transition: 0.2s;
+}
+
+.container .botao-finalizar:hover {
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.container-resultado p {
+    color: #ffffff;
+}
+
+main .marca {
+    color: #353535a1;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
+}
